@@ -1,0 +1,56 @@
+header, footer {
+  background-color: #f6c4cd;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  margin-bottom: 10rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.logoHeader {
+  width: 12%;
+}
+
+.logoFooter {
+  width: 7%;
+}
+
+.cardProducto {
+  width: 20%;
+  margin: 30px;
+  padding-bottom: 5%;
+}
+
+.btncontainer {
+  position: absolute;
+  bottom: 4px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+
+.cardDetalleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.cardDetalle {
+  padding: 3%;
+}
+
+h1 {
+  text-align: center;
+  color: red!important;
+}
+
+.cardProducto:hover {
+  scale: 1.05;
+}
