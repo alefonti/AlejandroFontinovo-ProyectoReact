@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import ListContainer from './ListContainer.jsx'
 import { useParams } from 'react-router-dom';
 import { consultarBDD } from '../../utils/script';
-const Producto = () => {
+const ItemList = () => {
     const [producto, setProducto] = useState([]);
     const {id} = useParams()
     useEffect(() => {
@@ -22,4 +22,4 @@ const Producto = () => {
     );
 }
 
-export default Producto;
+export default ItemList;

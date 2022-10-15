@@ -23,18 +23,15 @@ footer {
 }
 
 .cardProducto {
-  width: 20%;
   margin: 30px;
   padding-bottom: 5%;
 }
 
 .btncontainer {
   position: absolute;
-  bottom: 4px;
-  display: flex;
-  justify-content: center;
+  bottom: 6px;
   margin-bottom: 5%;
-  margin-left: 20%;
+  margin-left: 27%;
 }
 
 .cardDetalleContainer {
@@ -53,4 +50,22 @@ h1 {
 
 .cardProducto:hover {
   scale: 1.05;
+}
+
+section {
+  margin-bottom: 50rem;
+}
+
+.dropdown {
+  margin-top: 8px;
+}
+
+form {
+  margin: 10% 20%;
+}
+
+form label {
+  color: black;
+  font-weight: 500;
+  
 }

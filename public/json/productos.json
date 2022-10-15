@@ -1,51 +1,140 @@
 [
     {
     "id": 1,
-    "nombre": "Polera Gris",
-    "precio": 4000,
-    "img": "tienda1.webp"
+    "nombre": "Sweater Beige",
+    "precio": 6000,
+    "img": "tienda1.webp",
+    "stock": 11,
+    "categoriaId": 1
     },
     {
     "id": 2,
-    "nombre": "Buzo Celeste",
-    "precio": 2500,
-    "img": "tienda2.webp"
+    "nombre": "Sweater Azul",
+    "precio": 6000,
+    "img": "tienda2.webp",
+    "stock": 13,
+    "categoriaId": 1
     },
     {
     "id": 3,
     "nombre": "Piloto Azul",
-    "precio": 3500,
-    "img": "tienda3.webp"
+    "precio": 7500,
+    "img": "tienda3.webp",
+    "stock": 52,
+    "categoriaId": 2
     },
     {
     "id": 4,
     "nombre": "Piloto Naranja",
-    "precio": 3500,
-    "img": "tienda4.webp"
+    "precio": 7500,
+    "img": "tienda4.webp",
+    "stock": 105,
+    "categoriaId": 2
     },
     {
     "id": 5,
     "nombre": "Camisa Cuadros",
-    "precio": 4000,
-    "img": "tienda5.webp"
+    "precio": 4500,
+    "img": "tienda5.webp",
+    "stock": 50,
+    "categoriaId": 3
     },
     {
     "id": 6,
-    "nombre": "Polera Cuadros",
-    "precio": 4000,
-    "img": "tienda6.webp"
+    "nombre": "Sweater Cuadros",
+    "precio": 6000,
+    "img": "tienda6.webp",
+    "stock": 20,
+    "categoriaId": 1
     },
     {
     "id": 7,
-    "nombre": "Buzo Gris",
-    "precio": 4500,
-    "img": "tienda7.webp"
+    "nombre": "Sweater Gris",
+    "precio": 6000,
+    "img": "tienda7.webp",
+    "stock": 70,
+    "categoriaId": 1
     },
     {
     "id": 8,
-    "nombre": "Polera Cuadros Amarillos",
+    "nombre": "Camisa Cuadros Amarillos",
+    "precio": 4750,
+    "img": "tienda8.webp",
+    "stock": 70,
+    "categoriaId": 3
+    },
+    {
+    "id": 9,
+    "nombre": "Sweater Azul Oscuro",
+    "precio": 6000,
+    "img": "tienda9.webp",
+    "stock": 56,
+    "categoriaId": 1
+    },
+    {
+    "id": 10,
+    "nombre": "Camisa Rosa",
+    "precio": 7500,
+    "img": "tienda10.webp",
+    "stock": 57,
+    "categoriaId": 3
+    },
+    {
+    "id": 11,
+    "nombre": "Camisa Abejas",
+    "precio": 7500,
+    "img": "tienda11.webp",
+    "stock": 20,
+    "categoriaId": 3
+    },
+    {
+    "id": 12,
+    "nombre": "Camisa Arcoiris",
+    "precio": 7500,
+    "img": "tienda12.webp",
+    "stock": 40,
+    "categoriaId": 3
+    },
+    {
+    "id": 13,
+    "nombre": "Sweater Psicodelico",
+    "precio": 7000,
+    "img": "tienda13.webp",
+    "stock": 11,
+    "categoriaId": 1
+    },
+    {
+    "id": 14,
+    "nombre": "Piloto Negro",
+    "precio": 7500,
+    "img": "tienda14.webp",
+    "stock": 13,
+    "categoriaId": 2
+    },
+    {
+    "id": 15,
+    "nombre": "Sweater Rojo",
+    "precio": 4750,
+    "img": "tienda15.webp",
+    "stock": 41,
+    "categoriaId": 1
+    },
+    {
+    "id": 16,
+    "nombre": "Sweater Batiq",
     "precio": 4200,
-    "img": "tienda8.webp"
+    "img": "tienda16.webp",
+    "stock": 36,
+    "categoriaId": 1
+    },
+    {
+    "id": 17,
+    "nombre": "Sweater Rosa",
+    "precio": 4200,
+    "img": "tienda17.webp",
+    "stock": 56,
+    "categoriaId": 1
     }
+
 
 ]

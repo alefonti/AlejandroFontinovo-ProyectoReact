@@ -1,8 +1,10 @@
 import React from 'react';
 import Secciones from '../layouts/Secciones';
 import { Link } from 'react-router-dom'
+import Dropdown from '../layouts/Dropdown';
 
 const Navbar = () => {
+    const listDropdown = ["Sweaters", "Pilotos", "Camisas"];
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,6 +15,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarColor03">
                         <ul className="navbar-nav me-auto">
                             <Secciones/>
+                            <Dropdown lista={listDropdown}/>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item">
