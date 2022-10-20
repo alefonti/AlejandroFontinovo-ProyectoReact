@@ -3,136 +3,119 @@
     "id": 1,
     "nombre": "Sweater Beige",
     "precio": 6000,
-    "img": "tienda1.webp",
-    "stock": 11,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda1.webp?alt=media&token=92eb4ca9-4bdf-43f2-96fa-5c660fc815cb",
     "categoriaId": 1
     },
     {
     "id": 2,
     "nombre": "Sweater Azul",
     "precio": 6000,
-    "img": "tienda2.webp",
-    "stock": 13,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda2.webp?alt=media&token=af2f7c4a-4ebd-4b12-8799-f2ea0b1c5dc7",
     "categoriaId": 1
     },
     {
     "id": 3,
     "nombre": "Piloto Azul",
     "precio": 7500,
-    "img": "tienda3.webp",
-    "stock": 52,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda3.webp?alt=media&token=03f96026-493e-44f8-9c84-0c81e5bf6c9d",
     "categoriaId": 2
     },
     {
     "id": 4,
     "nombre": "Piloto Naranja",
     "precio": 7500,
-    "img": "tienda4.webp",
-    "stock": 105,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda4.webp?alt=media&token=148ed86b-2e4b-4222-8707-78db23608b00",
     "categoriaId": 2
     },
     {
     "id": 5,
     "nombre": "Camisa Cuadros",
     "precio": 4500,
-    "img": "tienda5.webp",
-    "stock": 50,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda5.webp?alt=media&token=435787dd-b65c-4118-b890-3ac3c27c3bda",
     "categoriaId": 3
     },
     {
     "id": 6,
     "nombre": "Sweater Cuadros",
     "precio": 6000,
-    "img": "tienda6.webp",
-    "stock": 20,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda6.webp?alt=media&token=543a48e0-ea3e-44e0-b7fb-be45b5b76e6a",
     "categoriaId": 1
     },
     {
     "id": 7,
     "nombre": "Sweater Gris",
     "precio": 6000,
-    "img": "tienda7.webp",
-    "stock": 70,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda7.webp?alt=media&token=ccc65d9c-5653-41b5-849f-6ee76e1c6f2d",
     "categoriaId": 1
     },
     {
     "id": 8,
     "nombre": "Camisa Cuadros Amarillos",
     "precio": 4750,
-    "img": "tienda8.webp",
-    "stock": 70,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda8.webp?alt=media&token=7438ac9f-19a8-467b-a75b-374ab8c826e0",
     "categoriaId": 3
     },
     {
     "id": 9,
     "nombre": "Sweater Azul Oscuro",
     "precio": 6000,
-    "img": "tienda9.webp",
-    "stock": 56,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda9.webp?alt=media&token=8c9f052b-400a-4ec2-ba75-f8fee9dfb293",
     "categoriaId": 1
     },
     {
     "id": 10,
     "nombre": "Camisa Rosa",
     "precio": 7500,
-    "img": "tienda10.webp",
-    "stock": 57,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda10.webp?alt=media&token=cb6d22dd-5558-4e47-9c59-8ba60369f9ae",
     "categoriaId": 3
     },
     {
     "id": 11,
     "nombre": "Camisa Abejas",
     "precio": 7500,
-    "img": "tienda11.webp",
-    "stock": 20,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda11.webp?alt=media&token=952d67dd-3fe3-4aae-806a-ad31a79e8d5b",
     "categoriaId": 3
     },
     {
     "id": 12,
     "nombre": "Camisa Arcoiris",
     "precio": 7500,
-    "img": "tienda12.webp",
-    "stock": 40,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda12.webp?alt=media&token=97b64fda-d68d-46b9-a20c-fef930eff70a",
     "categoriaId": 3
     },
     {
     "id": 13,
     "nombre": "Sweater Psicodelico",
     "precio": 7000,
-    "img": "tienda13.webp",
-    "stock": 11,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda13.webp?alt=media&token=e5637061-29db-43f5-b524-218056f0b647",
     "categoriaId": 1
     },
     {
     "id": 14,
     "nombre": "Piloto Negro",
     "precio": 7500,
-    "img": "tienda14.webp",
-    "stock": 13,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda14.webp?alt=media&token=e753b3ad-6a25-469f-ba45-e406b6ce6a43",
     "categoriaId": 2
     },
     {
     "id": 15,
     "nombre": "Sweater Rojo",
     "precio": 4750,
-    "img": "tienda15.webp",
-    "stock": 41,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda15.webp?alt=media&token=426c46ec-c8d2-407c-b629-5b8b0c5212df",
     "categoriaId": 1
     },
     {
     "id": 16,
     "nombre": "Sweater Batiq",
     "precio": 4200,
-    "img": "tienda16.webp",
-    "stock": 36,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda16.webp?alt=media&token=518d9909-43ef-4702-83be-5da133201119",
     "categoriaId": 1
     },
     {
     "id": 17,
     "nombre": "Sweater Rosa",
     "precio": 4200,
-    "img": "tienda17.webp",
-    "stock": 56,
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact-mundodachshund.appspot.com/o/Imagenes%2Ftienda17.webp?alt=media&token=76c09250-5617-4185-b459-8e88043409dd",
     "categoriaId": 1
     }
 

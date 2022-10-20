@@ -31,12 +31,20 @@ footer {
   position: absolute;
   bottom: 6px;
   margin-bottom: 5%;
-  margin-left: 27%;
+  margin-left: 20%;
+}
+
+.btnCarritoContainer {
+  position: absolute;
+  bottom: 6px;
+  margin-bottom: 5%;
+  margin-left: 33%;
 }
 
 .cardDetalleContainer {
   display: flex;
   justify-content: center;
+  padding-bottom: 10%;
 }
 
 .cardDetalle {
@@ -67,5 +75,13 @@ form {
 form label {
   color: black;
   font-weight: 500;
-  
+}
+
+#carritoVacio {
+  width: 20%;
+}
+
+#textoCarrito {
+  color: black;
+  text-align: center;
 }
