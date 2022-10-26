@@ -10,6 +10,7 @@ import Carrito from './content/Carrito';
 import Contacto from './content/Contacto';
 import About from './content/About';
 import Categoria from './content/Categoria';
+import Checkout from './content/Checkout';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/about" element= {<About/>} />
           <Route path="/contacto" element= {<Contacto/>} />
           <Route path="/carrito" element= {<Carrito/>} />
+          <Route path="/checkout" element= {<Checkout/>}/>
           <Route path="*" element= {<h1>Error 404</h1>}/>
         </Routes>
         <Footer/> 

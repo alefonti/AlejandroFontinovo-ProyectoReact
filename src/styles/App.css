@@ -85,3 +85,22 @@ form label {
   color: black;
   text-align: center;
 }
+
+#finalizarCompraContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#precioTotal {
+  color: black;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f6c4cd;
+  margin-top: 3%;
+}
+
+.about {
+  color: black;
+  margin: 0% 5% 20% 5%;
+}

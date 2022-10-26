@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {collection, doc, addDoc, getFirestore, getDocs, getDoc, } from "firebase/firestore"
+import {collection, doc, addDoc, getFirestore, getDocs, getDoc, deleteDoc, updateDoc, } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -41,5 +41,42 @@ const firebaseConfig = {
     const items = productos.docs.map(producto => [producto.id, producto.data()])
     return items
   }
+
+  const updateProducto = async(id, info) => {
+    const estado = await updateDoc(doc(db, "productos", id), info)
+    return estado
+  }
+
+  const deleteProducto = async(id) => {
+    const estado = await deleteDoc(doc(db, "productos", id))
+    return estado
+  }
+
+  const createProducto = async(objProd) => {
+    const estado = await addDoc(collection(db, "productos"), {
+      nombre: objProd.nombre,
+      precio: objProd.precio,
+      img: objProd.img,
+      categoriaId: objProd.categoriaId
+    })
+  }
+
+  const createOrdenCompra = async (preTotal, nombre, apellido, email, dni, direccion) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
+      nombre: nombre,
+      apellido: apellido,
+      email: email,
+      dni: dni,
+      direccion: direccion,
+      precioTotal: preTotal
+    })
   
-  export {cargarBaseDeDatos, getProductos, getProducto}
+    return ordenCompra
+  }
+  
+  const getOrdenCompra = async (id) => {
+    const ordenCompra = await getDoc(doc(db, "ordenCompra", id))
+    return ordenCompra
+  }
+  
+  export {cargarBaseDeDatos, getProductos, getProducto, updateProducto, createProducto, deleteProducto, createOrdenCompra, getOrdenCompra}
