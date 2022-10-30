@@ -6,7 +6,7 @@ import Navbar from './content/Navbar';
 import Footer from './content/Footer';
 import ItemListContainer from './content/ItemListContainer';
 import ItemList from './content/ItemList';
-import Carrito from './content/Carrito';
+import CartWidget from './content/CartWidget';
 import Contacto from './content/Contacto';
 import About from './content/About';
 import Categoria from './content/Categoria';
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/categoria/:id" element={<Categoria/>}/>
           <Route path="/about" element= {<About/>} />
           <Route path="/contacto" element= {<Contacto/>} />
-          <Route path="/carrito" element= {<Carrito/>} />
+          <Route path="/carrito" element= {<CartWidget/>} />
           <Route path="/checkout" element= {<Checkout/>}/>
           <Route path="*" element= {<h1>Error 404</h1>}/>
         </Routes>

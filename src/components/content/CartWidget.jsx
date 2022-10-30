@@ -1,9 +1,9 @@
 import React, {useContext, useEffect, useState} from 'react';
-import { CarritoContext } from '../../context/CarritoContext';
+import { CartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
 
-const Carrito = () => {
-    const {carrito, agregarProducto, quitarProducto} = useContext(CarritoContext)
+const CartWidget = () => {
+    const {carrito, agregarProducto, quitarProducto} = useContext(CartContext)
     const [carritoLocal, setCarritoLocal] = useState([]);
 
     useEffect(() => {
@@ -35,4 +35,4 @@ const Carrito = () => {
     return app
 }
 
-export default Carrito;
+export default CartWidget;

@@ -1,8 +1,8 @@
 import React, { createContext , useState } from 'react';
 
 
-const CarritoContext = createContext();
-const CarritoProvider = (props) => {
+const CartContext = createContext();
+const CartProvider = (props) => {
 
     const [carrito, setCarrito] = useState([]); 
 
@@ -23,7 +23,7 @@ const CarritoProvider = (props) => {
 
     const quitarProducto = (prod) => {
         const aux = carrito;
-        let indice = aux.findIndex(producto => producto[0] == prod.id);
+        let indice = aux.findIndex(producto => producto[0] == prod[0]);
         aux.splice(indice, 1);
         setCarrito(structuredClone(aux))
         console.log(carrito)
@@ -31,11 +31,11 @@ const CarritoProvider = (props) => {
 
     return (
         <div>
-            <CarritoContext.Provider value={{carrito, agregarProducto, quitarProducto}}>
+            <CartContext.Provider value={{carrito, agregarProducto, quitarProducto}}>
                 {props.children}
-            </CarritoContext.Provider>
+            </CartContext.Provider>
         </div>
     );
 }
 
-export {CarritoContext, CarritoProvider};
+export {CartContext, CartProvider};

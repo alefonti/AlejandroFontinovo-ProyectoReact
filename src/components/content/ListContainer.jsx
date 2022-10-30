@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
-import { CarritoContext } from '../../context/CarritoContext';
+import { CartContext } from '../../context/CartContext';
 const ListContainer = ({producto}) => {
 
   const [cantidad, setCantidad] = useState(1);
 
-  const {carrito, agregarProducto, quitarProducto} = useContext(CarritoContext);
+  const {carrito, agregarProducto, quitarProducto} = useContext(CartContext);
 
   const cantProducto = (operacion) => {
     if (operacion == "+") {
